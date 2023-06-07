@@ -235,6 +235,14 @@ footer .container nav a:hover {
 /*  */
 
 
+.home-container .row {
+	justify-content: center;
+}
+
+.home-container .content-card {
+	min-width: 350px;
+}
+
 .card-big-shadow {
 	max-width: 400px;
 	position: relative;
