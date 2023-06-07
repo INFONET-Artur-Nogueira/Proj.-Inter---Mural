@@ -506,3 +506,14 @@ th {
 .domingo {
 	color: red
 }
+
+/*vagas de estagio*/
+	#vagas #principal{
+		border:1px solid red;
+		max-height: auto;
+
+	}
+
+	#vagas .botao{
+		background:rgb(64, 5, 119);
+	}
