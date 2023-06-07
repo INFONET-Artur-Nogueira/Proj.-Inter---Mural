@@ -424,87 +424,129 @@ a:focus {
 
 /* Calendario */
 
-.img {
-	top: 3px;
-	position: absolute;
-	left: 20px
+#calendar .tab {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+
 }
 
-.tab {
-	overflow: hidden;
-	border: 1px solid #ccc;
+#calendar .tab button {
 	background-color: #f1f1f1;
-
-}
-
-.tab button {
-	background-color: inherit;
-	float: left;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 14px 16px;
-	transition: 0.3s;
+	padding: 10px 20px;
+	transition: background-color 0.3s;
+	width: 130px;
 }
 
-.tab button:hover {
+#calendar.tab button:hover {
 	background-color: #ddd;
 }
 
-.tab button.active {
+#calendar .tab button.active {
 	background-color: #ccc;
 }
 
-.tabcontent {
+#calendar .tabcontent {
 	display: none;
-	padding: 6px 12px;
-	border-top: none;
+	padding: 20px;
+	background-color: #f9f9f9;
+
 }
 
-table {
-	border-collapse: collapse;
+#calendar table {
 	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #c0c0c0;
+}
+
+#calendar table th,
+table td {
+	padding: 10px;
 	text-align: center;
 }
 
-td {
-	padding: 10px;
-	border: 1px solid black;
+#calendar table th {
+	background-color: #8C52FF;
+	color: white;
 }
 
-th {
-	padding: 10px;
-	background-color: lightgray;
-	border: 1px solid black;
+#calendar table tr:nth-child(even) {
+	background-color: #e8e7e7;
 }
 
-.or {
-	background-color: lightgreen;
+#calendar table td.semaula {
+	background-color: #f990b5;
 }
 
-.avisos {
-	background-color: lightblue;
+#calendar table td.semaula.tablinkss {
+	background-color: #f990b5;
 }
 
-.semaula {
-	background-color: red;
+#calendar table td.domingo {
+	background-color: hwb(0 59% 0%);
+	color: rgb(0, 0, 0);
 }
 
-.legenda {
-	position: relative;
-	width: 17.5%;
-	right: -82.5%;
-	top: -1px;
+#calendar table td.tablinkss {
+	cursor: pointer;
+	background-color: #f1f1f1;
+	transition: background-color 0.3s;
 }
 
-.quadro {
-	position: absolute;
-	left: -471.5%;
-	top: -0.15%;
+#calendar table td.tablinkss:hover {
+	background-color: #ddd;
 }
 
-.domingo {
-	color: red
+#calendar table td.tablinks:hover {
+	background-color: #ddd;
+}
+
+#calendar table td.tablink:hover {
+	background-color: #ddd;
+}
+
+#calendar table td.avisos {
+	background-color: #bdf6b4;
+}
+
+#calendar table td.or {
+	background-color: #c9ecf6;
+	cursor: pointer;
+}
+
+#calendar .legenda {
+	position: static;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: auto;
+	height: auto;
+}
+
+#calendar .legenda table {
+	margin-right: 20px;
+	border: 1px solid #c0c0c0;
+}
+
+#calendar .quadro {
+	margin-top: 10px;
+
+}
+
+#calendar .tabcontente {
+	position: sticky;
+	display: none;
+	padding: 5px;
+	align-content: center;
+	width: 300px;
+}
+
+#calendar table td {
+	width: 300px;
 }
 
 /*vagas de estagio*/
