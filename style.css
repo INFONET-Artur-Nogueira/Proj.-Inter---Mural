@@ -126,12 +126,14 @@ header nav .dropdown-menu li a:hover {
 }
 
 .mobile {
-	display: none;
+	display: none !important;
 }
 
 @media (max-width: 992px) {
 	header nav .links-principais {
 		gap: 20px;
+		display: flex !important;
+		padding: 0;
 	}
 
 	.mobile {
