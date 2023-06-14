@@ -397,7 +397,7 @@ a:focus {
 
 /* Achados e perdidos */
 #principal {
-	width: 1544px;
+	flex-wrap: wrap;
 	max-height: auto;
 	padding: 0px;
 	margin: 0px;
