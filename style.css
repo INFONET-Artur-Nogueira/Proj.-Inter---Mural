@@ -159,6 +159,7 @@ header nav .dropdown-menu li a:hover {
 	border-radius: 20px;
 	padding: 20px;
 	height: 230px;
+	min-width: 200px;
 
 }
 
