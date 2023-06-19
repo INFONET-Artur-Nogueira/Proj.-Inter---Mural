@@ -459,6 +459,12 @@ a:focus {
 	background-color: white;
 }
 
+.h4,
+h4 {
+	font-size: 14pt !important;
+	font-family: 'Inter' !important;
+	text-align: center;
+}
 
 .center {
 	display: block;
