@@ -593,6 +593,11 @@ table td {
 		min-width: 130px;
 	}
 
+	.quadro {
+		position: relative;
+		min-width: 130px;
+	}
+
 	#calendar .semabv {
 		display: none;
 	}
