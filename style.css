@@ -275,6 +275,14 @@ footer .container nav h2::after {
 
 }
 
+footer .t {
+	font-size: 20px !important;
+	font-weight: 500;
+	color: #fff;
+	position: relative;
+	margin-bottom: 2px;
+}
+
 footer .container nav {
 	gap: 8px;
 }
@@ -655,7 +663,8 @@ table td {
 .d-none {
 	display: block !important;
 }
-.titulobanner{
+
+.titulobanner {
 	font-size: 70px;
 }
 @media (max-width: 700px) {
@@ -666,12 +675,14 @@ table td {
 	}
 
 	.carousel-caption {
-	padding-left: 40%;
-	padding-bottom: 8%;
+		padding-left: 40%;
+		padding-bottom: 8%;
+	}
 }
-}
-/*banner testes*/
 
+<<<<<<< HEAD
+/*banner testes*/
+=======
 /* *********Contato*********/
 
 #contato-subheader{
@@ -718,3 +729,5 @@ textarea{
 #contato-subheader li{
 	width: 262px;
 }
+
+>>>>>>> bd2c4c55b3a9a6c00073572a3967b8036ea1da15
