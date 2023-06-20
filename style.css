@@ -649,3 +649,12 @@ table td {
 #guia .row {
 	
 } 
+/*banner testes*/
+.alinharbanner{
+	padding-left: 400px;
+	padding-bottom:400px;
+}
+.titulobanner{
+	font-size: 70px;
+}
+/*banner testes*/
