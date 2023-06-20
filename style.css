@@ -647,12 +647,28 @@ table td {
 }
 
 /*banner testes*/
-.alinharbanner {
+.carousel-caption {
 	padding-left: 26%;
+	padding-bottom: 18%;
 }
 
-.titulobanner {
+.d-none {
+	display: block !important;
+}
+.titulobanner{
 	font-size: 70px;
 }
 
+@media (max-width: 700px) {
+
+
+	body {
+		background-color: blue;
+	}
+
+	.carousel-caption {
+	padding-left: 40%;
+	padding-bottom: 8%;
+}
+}
 /*banner testes*/
