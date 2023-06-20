@@ -299,6 +299,13 @@ footer .container nav a:hover {
 	color: #fff;
 }
 
+.copy {
+	margin-left: auto;
+	width: max-content;
+	margin-right: 10px;
+	font-size: 9pt;
+}
+
 /*  */
 
 
@@ -668,16 +675,25 @@ table td {
 	font-size: 60px;
 	color:black;
 }
+<<<<<<< HEAD
+
+=======
 .textobanner {
 	color:black;
 }
+>>>>>>> 5f6cdd464e67bee8c1d5dbf14d76934819491339
 @media (max-width: 700px) {
 
 	.carousel-caption {
 		padding-left: 32%;
 		margin-bottom: -9%;
 	}
+
 	.titulobanner {
+<<<<<<< HEAD
+		font-size: 47px;
+	}
+=======
 	font-size: 35px;
 		color:black;
 	}
@@ -687,51 +703,66 @@ table td {
 	}
 }
 */
+>>>>>>> 5f6cdd464e67bee8c1d5dbf14d76934819491339
 
+<<<<<<< HEAD
+	<<<<<<< HEAD
+	/*banner testes*/
+	=======
+	/* *********Contato*********/
+=======
 
 /* *********Contato*********/
+>>>>>>> 5f6cdd464e67bee8c1d5dbf14d76934819491339
 
-#contato-subheader{
-	height:110px;
-	width:auto;
-	padding:45px 0px;
-	font-weight: bold;
-}
+	#contato-subheader {
+		height: 110px;
+		width: auto;
+		padding: 45px 0px;
+		font-weight: bold;
+	}
 
-#conteudo{
-	margin:30px auto;
-	width:600px;
-	border:1px solid #dfdfdf;
-	height:auto;
-	border-radius:15px;
-}
+	#conteudo {
+		margin: 30px auto;
+		width: 600px;
+		border: 1px solid #dfdfdf;
+		height: auto;
+		border-radius: 15px;
+	}
 
-#conteudo .titulo{
-	font-weight: bold;
-}
-#conteudo form{
-	padding:20px;
-}
+	#conteudo .titulo {
+		font-weight: bold;
+	}
 
-#conteudo input, textarea{
-	border-radius:05px;
-}
+	#conteudo form {
+		padding: 20px;
+	}
 
-#conteudo h1{
-	padding:50px 0 0px 0; 
-}
+	#conteudo input,
+	textarea {
+		border-radius: 05px;
+	}
 
-textarea{
-	margin: auto;
-	width:234px;
-}
+	#conteudo h1 {
+		padding: 50px 0 0px 0;
+	}
 
-#contato-subheader ul{
-	padding: 0px;
-	display:flex;
-	gap: 100px;
-}
+	textarea {
+		margin: auto;
+		width: 234px;
+	}
 
-#contato-subheader li{
-	width: 262px;
-}
+	#contato-subheader ul {
+		padding: 0px;
+		display: flex;
+		gap: 100px;
+	}
+
+<<<<<<< HEAD
+	#contato-subheader li {
+		width: 262px;
+	}
+
+	>>>>>>>bd2c4c55b3a9a6c00073572a3967b8036ea1da15
+=======
+>>>>>>> 5f6cdd464e67bee8c1d5dbf14d76934819491339
