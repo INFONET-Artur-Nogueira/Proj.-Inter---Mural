@@ -680,13 +680,15 @@ table td {
 	.titulobanner {
 	font-size: 35px;
 		color:black;
-}
+	}
 	.textobanner {
 	font-size: 15px;
 		color:black;
+	}
 }
-/*banner testes*/
-=======
+
+
+
 /* *********Contato*********/
 
 #contato-subheader{
@@ -733,5 +735,3 @@ textarea{
 #contato-subheader li{
 	width: 262px;
 }
-
->>>>>>> bd2c4c55b3a9a6c00073572a3967b8036ea1da15
