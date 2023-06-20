@@ -308,6 +308,12 @@ footer .container nav a:hover {
 	font-family: 'Inter';
 }
 
+@media (max-width: 553px) {
+	.copy {
+		margin-top: 20px;
+	}
+}
+
 /*  */
 
 
