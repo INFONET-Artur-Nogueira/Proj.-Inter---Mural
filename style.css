@@ -651,8 +651,7 @@ table td {
 } 
 /*banner testes*/
 .alinharbanner{
-	padding-left: 400px;
-	padding-bottom:400px;
+	padding-left: 26%;
 }
 .titulobanner{
 	font-size: 70px;
