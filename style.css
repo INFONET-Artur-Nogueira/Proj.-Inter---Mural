@@ -659,3 +659,50 @@ table td {
 	font-size: 70px;
 }
 /*banner testes*/
+
+/* *********Contato*********/
+
+#contato-subheader{
+	height:110px;
+	width:auto;
+	padding:45px 0px;
+	font-weight: bold;
+}
+
+#conteudo{
+	margin:30px auto;
+	width:600px;
+	border:1px solid #dfdfdf;
+	height:auto;
+	border-radius:15px;
+}
+
+#conteudo .titulo{
+	font-weight: bold;
+}
+#conteudo form{
+	padding:20px;
+}
+
+#conteudo input, textarea{
+	border-radius:05px;
+}
+
+#conteudo h1{
+	padding:50px 0 0px 0; 
+}
+
+textarea{
+	margin: auto;
+	width:234px;
+}
+
+#contato-subheader ul{
+	padding: 0px;
+	display:flex;
+	gap: 100px;
+}
+
+#contato-subheader li{
+	width: 262px;
+}
