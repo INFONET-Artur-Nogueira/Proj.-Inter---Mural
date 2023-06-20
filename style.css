@@ -190,7 +190,7 @@ header nav .dropdown-menu li a:hover {
 	border-radius: 20px;
 	padding: 20px;
 	height: 230px;
-	
+
 
 }
 
@@ -219,24 +219,24 @@ header nav .dropdown-menu li a:hover {
 
 #noticias .cards {
 	justify-content: space-around;
-		}
-		
+}
+
 #noticias .cards .card {
-			/* width: 33.33%; */
-			flex-wrap: wrap;
-			max-width: 350px;
-			min-width: 300px;
-			
-		}
+	/* width: 33.33%; */
+	flex-wrap: wrap;
+	max-width: 350px;
+	min-width: 300px;
 
-		#noticias .nav-link{
-			padding: 0;
-			color: white;
-		}
+}
 
-		#noticias .nav-item{
-			color: white;
-		}
+#noticias .nav-link {
+	padding: 0;
+	color: white;
+}
+
+#noticias .nav-item {
+	color: white;
+}
 
 /* Rodapé */
 footer {
@@ -646,14 +646,13 @@ table td {
 	background: rgb(174, 11, 255);
 }
 
-#guia .row {
-	
-} 
 /*banner testes*/
-.alinharbanner{
+.alinharbanner {
 	padding-left: 26%;
 }
-.titulobanner{
+
+.titulobanner {
 	font-size: 70px;
 }
+
 /*banner testes*/
