@@ -656,8 +656,8 @@ table td {
 
 /*banner testes*/
 .carousel-caption {
-	padding-left: 30%;
-	padding-bottom: 8%;
+	padding-left: 27%;
+	margin-bottom: -3%;
 }
 
 .d-none {
@@ -665,19 +665,17 @@ table td {
 }
 
 .titulobanner {
-	font-size: 55px;
+	font-size: 70px;
 }
 @media (max-width: 700px) {
 
 	.carousel-caption {
-		padding-left: 30%;
-		padding-bottom: 8%;
+		padding-left: 32%;
+		margin-bottom: -9%;
 	}
 	.titulobanner {
-	font-size: 47px;
+	font-size: 20px;
 }
-
-<<<<<<< HEAD
 /*banner testes*/
 =======
 /* *********Contato*********/
