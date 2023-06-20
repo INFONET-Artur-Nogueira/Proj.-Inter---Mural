@@ -53,6 +53,8 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+    <script src="scripts.js"> </script>
+
 </head>
 
 <body id="inicio">
@@ -148,24 +150,6 @@
     </div>
 
     <footer></footer>
-
-    <script>
-        fetch('header.html')
-            .then(response => response.text())
-            .then(data => {
-                const headA = document.getElementsByTagName('header')[0];
-                const headerContentA = data;
-                headA.innerHTML += headerContentA;
-            });
-
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => {
-                const head = document.getElementsByTagName('footer')[0];
-                const headerContent = data;
-                head.innerHTML += headerContent;
-            });
-    </script>
 
 </body>
 
