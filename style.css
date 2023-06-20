@@ -659,7 +659,7 @@ table td {
 	font-size: 70px;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
 	.carousel-caption {
 	padding-left: 40%;
 	padding-bottom: 8%;
