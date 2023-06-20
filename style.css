@@ -665,7 +665,11 @@ table td {
 }
 
 .titulobanner {
-	font-size: 70px;
+	font-size: 60px;
+	color:black;
+}
+.textobanner {
+	color:black;
 }
 @media (max-width: 700px) {
 
