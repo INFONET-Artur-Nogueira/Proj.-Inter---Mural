@@ -674,7 +674,12 @@ table td {
 		margin-bottom: -9%;
 	}
 	.titulobanner {
-	font-size: 20px;
+	font-size: 35px;
+		color:black;
+}
+	.textobanner {
+	font-size: 15px;
+		color:black;
 }
 /*banner testes*/
 =======
