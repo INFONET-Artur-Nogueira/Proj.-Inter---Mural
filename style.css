@@ -184,59 +184,59 @@ header nav .dropdown-menu li a:hover {
 
 /*  Noticias */
 
-#noticias .row{
+#noticias .row {
 	width: 100%;
 }
 
-#destaque1.card{
-	background-position: center; 
-	background-size: cover; 
+#destaque1.card {
+	background-position: center;
+	background-size: cover;
 	height: 100%;
-    	min-height: 620px;
+	min-height: 620px;
 }
 
-#direita{
+#direita {
 	height: 660px;
 	margin-inline: 0;
 }
 
-#destaque2.card{
+#destaque2.card {
 	background-position: center left;
-	background-size: cover; 
+	background-size: cover;
 	height: 100%;
 }
 
-#texto{
-	margin-bottom: 170px; 
+#texto {
+	margin-bottom: 170px;
 	text-align: center;
 }
 
-#destaque3.card{
-	background-position: center; 
-	background-size: cover; 
+#destaque3.card {
+	background-position: center;
+	background-size: cover;
 	height: 100%;
 }
 
-#destaque4.card{
-	background-position: center left ; 
-	background-size: cover; 
+#destaque4.card {
+	background-position: center left;
+	background-size: cover;
 	height: 100%;
 }
 
-#noticias-secundarias{
-	padding: 50px 20px;    
+#noticias-secundarias {
+	padding: 50px 20px;
 	margin: 0 auto;
 }
 
 
 
-.content-img{
-	max-height: 272px ;
+.content-img {
+	max-height: 272px;
 	display: block;
 	overflow: hidden;
 }
 
-#noticias .col-lg-6{
+#noticias .col-lg-6 {
 	padding: 0px;
 }
 
@@ -683,7 +683,8 @@ table td {
 	display: none;
 }
 
-#calendar .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+#calendar .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
 	background-color: #8c52ff !important;
 }
 
@@ -709,13 +710,16 @@ table td {
 
 
 /*vagas de estagio*/
+
 #vagas #principal {}
 
 #vagas .botao {
 	background: rgb(174, 11, 255);
 }
 
-
+#vagas-container .container {
+	max-width: 1585px !important;
+}
 
 /* *********Contato*********/
 
