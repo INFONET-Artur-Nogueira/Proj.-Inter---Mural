@@ -259,6 +259,7 @@ header nav .dropdown-menu li a:hover {
 
 #noticias .card {
 	border-radius: 30px;
+	max-width: 100% !important
 }
 
 #noticias p {
