@@ -188,7 +188,7 @@ header nav .dropdown-menu li a:hover {
 	width: 100%;
 }
 
-#destaque1 .card{
+#destaque1.card{
 	background-position: center; 
 	background-size: cover; 
 	height: 100%;
@@ -199,7 +199,7 @@ header nav .dropdown-menu li a:hover {
 	height: 600px;
 }
 
-#destaque2 .card{
+#destaque2.card{
 	background-position: center left;
 	background-size: cover; 
 	height: 100%;
@@ -210,13 +210,13 @@ header nav .dropdown-menu li a:hover {
 	text-align: center;
 }
 
-#destaque3 .card{
+#destaque3.card{
 	background-position: center; 
 	background-size: cover; 
 	height: 100%;
 }
 
-#destaque4 .card{
+#destaque4.card{
 	background-position: center left ; 
 	background-size: cover; 
 	height: 100%;
