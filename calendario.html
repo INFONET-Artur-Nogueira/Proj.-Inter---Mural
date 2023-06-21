@@ -52,13 +52,13 @@
 
 </head>
 
-<body onload="myFunction()">
+<body onload="autoday()">
 
 	<header></header>
 
 	<script>
 
-		function openCity(evt, cityName) {
+		function calendarehorario(evt, cityName) {
 			var i, tabreplacepage, tablinkpage;
 			tabreplacepage = document.getElementsByClassName("tabreplacepage");
 			for (i = 0; i < tabreplacepage.length; i++) {
@@ -72,7 +72,7 @@
 			evt.currentTarget.className += " active";
 		}
 
-		function openday(evt, dayName) {
+		function quadroinfo(evt, dayName) {
 			var i, tabreplacequadro, tablinkquadro;
 			tabreplacequadro = document.getElementsByClassName("tabreplacequadro");
 			for (i = 0; i < tabreplacequadro.length; i++) {
@@ -90,7 +90,7 @@
 		let day = date.getDate();
 
 
-		function myFunction() {
+		function autoday() {
 			if (day != 3 && day != 7 && day != 8 && day != 9 && day != 14 && day != 21 && day != 26 && day != 28 && day != 30) {
 				document.getElementById("dia").style.display = "block";
 				document.getElementById("fdia").innerHTML = day;
@@ -109,8 +109,8 @@
 
 	<div id="calendar">
 		<div class="tab">
-			<button class="tablinkpage active" onclick="openCity(event, 'calendario')">Calendário</button>
-			<button class="tablinkpage" onclick="openCity(event, 'horario')">Horário</button>
+			<button class="tablinkpage active" onclick="calendarehorario(event, 'calendario')">Calendário</button>
+			<button class="tablinkpage" onclick="calendarehorario(event, 'horario')">Horário</button>
 		</div>
 		<div id="calendario" class="tabreplacepage" style="display: block;">
 			<table style="table-layout: fixed;">
@@ -140,22 +140,22 @@
 					<td>31</td>
 					<td>1</td>
 					<td>2</td>
-					<td class="tablinkquadro avisos" onclick="openday(event, '3')">3</td>
+					<td class="tablinkquadro avisos" onclick="quadroinfo(event, '3')">3</td>
 					<td class="domingo">4</td>
 				</tr>
 				<tr>
 					<td>5</td>
 					<td>6</td>
-					<td class="tablinkquadro or" onclick="openday(event, '7')">7</td>
-					<td class="tablinkquadro semaula" onclick="openday(event, '8')">8</td>
-					<td class="tablinkquadro semaula" onclick="openday(event, '9')">9</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '7')">7</td>
+					<td class="tablinkquadro semaula" onclick="quadroinfo(event, '8')">8</td>
+					<td class="tablinkquadro semaula" onclick="quadroinfo(event, '9')">9</td>
 					<td td class="semaula">10</td>
 					<td class="domingo">11</td>
 				</tr>
 				<tr>
 					<td>12</td>
 					<td>13</td>
-					<td class="tablinkquadro or" onclick="openday(event, '14')">14</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '14')">14</td>
 					<td>15</td>
 					<td>16</td>
 					<td class="semaula">17</td>
@@ -164,18 +164,18 @@
 				<tr>
 					<td>19</td>
 					<td>20</td>
-					<td class="tablink or" onclick="openday(event, '21')">21</td>
+					<td class="tablink or" onclick="quadroinfo(event, '21')">21</td>
 					<td>22</td>
 					<td>23</td>
 					<td td class="semaula">24</td>
 					<td class="domingo">25</td>
 				</tr>
 				<tr>
-					<td class="tablinkquadro avisos" onclick="openday(event, '26')">26</td>
+					<td class="tablinkquadro avisos" onclick="quadroinfo(event, '26')">26</td>
 					<td>27</td>
-					<td class="tablink or" onclick="openday(event, '28')">28</td>
+					<td class="tablink or" onclick="quadroinfo(event, '28')">28</td>
 					<td>29</td>
-					<td class="tablink avisos" onclick="openday(event, '30')">30</td>
+					<td class="tablink avisos" onclick="quadroinfo(event, '30')">30</td>
 					<td td class="semaula">31</td>
 					<td class="domingo">1</td>
 				</tr>
@@ -266,7 +266,7 @@
 			</ul>
 			<div class="tab-content" id="pills-tabContent">
 				<div class="tab-pane fade show active table-responsive-xl" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-					<table class="table">
+					<table class="table" style="min-width: 700px;">
 						<thead>
 							<tr>
 								<th scope="col" class="align-middle">Dia</th>
@@ -304,7 +304,7 @@
 					</table>
 				</div>
 				<div class="tab-pane fade table-responsive-xl" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-					<table class="table">
+					<table class="table" style="min-width: 700px;">
 						<thead>
 							<tr>
 								<th scope="col" class="align-middle">Dia</th>
@@ -315,34 +315,34 @@
 						<tbody>
 							<tr>
 								<td scope="row" class="align-middle">Segunda</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>Estudos de Administração Pública<p>PROF: Victor</p></td>
+								<td>Desenvolvimento do Tcc Administração<p>PROF: Victor</p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Terça</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>Estudos de Comércio Internacional<p>PROF: Erandi</p></td>
+								<td>Administração da Produção e Serviços<p>PROF: Erandi</p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Quarta</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>Processos Logístivos Empresariais<p>PROF: Erandi</p></td>
+								<td>Tecnologia da Infomação Aplicada a Administração<p>PROF: Elias</p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Quinta</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>Processos Logístivos Empresariais<p>PROF: Erandi</p></td>
+								<td>Inglês Instrumental<p>PROF: Kelvin</p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Sexta</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>Administração Financeira e Orçamentária<p>PROF:Victor</p></td>
+								<td>Administração Financeira e Orçamentária<p>PROF: Victor</p></td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class="tab-pane fade table-responsive-xl" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-					<table class="table">
+					<table class="table" style="min-width: 700px;">
 						<thead>
 							<tr>
 								<th scope="col" class="align-middle">Dia</th>
@@ -353,28 +353,28 @@
 						<tbody>
 							<tr>
 								<td scope="row" class="align-middle">Segunda</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>Em Breve<p></p></td>
+								<td>Em Breve<p></p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Terça</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>...<p></p></td>
+								<td>...<p></p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Quarta</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>...<p></p></td>
+								<td>...<p></p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Quinta</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>...<p></p></td>
+								<td>...<p></p></td>
 							</tr>
 							<tr>
 								<td scope="row" class="align-middle">Sexta</td>
-								<td><p>PROF:</p></td>
-								<td><p>PROF:</p></td>
+								<td>...<p></p></td>
+								<td>...<p></p></td>
 							</tr>
 						</tbody>
 					</table>
