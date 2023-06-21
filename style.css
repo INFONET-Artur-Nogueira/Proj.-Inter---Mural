@@ -465,12 +465,12 @@ a:focus {
 }
 
 #principal>.perdidos {
-	position: absolute;
 	width: 524px;
 	max-height: 0 0 auto 0;
 	left: 1020px;
 	top: 67px;
 	padding-top: 50px;
+	display: none;
 }
 
 
