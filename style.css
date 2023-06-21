@@ -196,7 +196,8 @@ header nav .dropdown-menu li a:hover {
 }
 
 #direita{
-	height: 600px;
+	height: 660px;
+	margin-inline: 0;
 }
 
 #destaque2.card{
