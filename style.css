@@ -470,7 +470,7 @@ a:focus {
 	left: 1020px;
 	top: 67px;
 	padding-top: 50px;
-	display: none;
+	display: block !important;
 }
 
 
