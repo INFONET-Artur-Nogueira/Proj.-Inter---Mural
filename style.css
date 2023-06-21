@@ -184,6 +184,61 @@ header nav .dropdown-menu li a:hover {
 
 /*  Noticias */
 
+#noticias .row{
+	width: 100%;
+}
+
+#destaque1 .card{
+	background-position: center; 
+	background-size: cover; 
+	height: 100%;
+    	min-height: 620px;
+}
+
+#direita{
+	height: 600px;
+}
+
+#destaque2 .card{
+	background-position: center left;
+	background-size: cover; 
+	height: 100%;
+}
+
+#texto{
+	margin-bottom: 170px; 
+	text-align: center;
+}
+
+#destaque3 .card{
+	background-position: center; 
+	background-size: cover; 
+	height: 100%;
+}
+
+#destaque4 .card{
+	background-position: center left ; 
+	background-size: cover; 
+	height: 100%;
+}
+
+#noticias-secundarias{
+	padding: 50px 20px;    
+	margin: 0 auto;
+}
+
+
+
+.content-img{
+	max-height: 272px ;
+	display: block;
+	overflow: hidden;
+}
+
+#noticias .col-lg-6{
+	padding: 0px;
+}
+
 .card-body {
 	text-align: center;
 	color: black;
