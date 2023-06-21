@@ -45,9 +45,32 @@
 <body id="achados-perdido">
     <header></header>
 
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabreplacepage, tablinkpage;
+            tabreplacepage = document.getElementsByClassName("tabreplacepage");
+            for (i = 0; i < tabreplacepage.length; i++) {
+                tabreplacepage[i].style.display = "none";
+            }
+            tablinkpage = document.getElementsByClassName("tablinkpage");
+            for (i = 0; i < tablinkpage.length; i++) {
+                tablinkpage[i].className = tablinkpage[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <div id="calendar">
+        <div class="tab">
+            <button class="tablinkpage active" onclick="openCity(event, 'achados')">Itens achados</button>
+            <button class="tablinkpage" onclick="openCity(event, 'perdidos')">Itens perdidos</button>
+        </div>
+    </div>
+
 
     <div id="principal">
-        <div class="div-achados bootstrap snippets bootdeys" style="width: 1000px;">
+        <div id="achados" class="div-achados tabreplacepage bootstrap snippets bootdeys" style="width: 1000px;">
             <div class="row " id="achados" style="margin-bottom: 10px;">
                 <div class="col-md-4 col-sm-6 content-card">
                     <div class="card-big-shadow">
@@ -157,8 +180,8 @@
         </div>
 
 
-        <div class="perdidos">
-            <div id="perdidos" style="margin: 10px;">
+        <div class="perdidos" class="perdidos tabreplacepage">
+            <div style="margin: 10px;">
 
                 <h3>Caneta Azul</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla debitis impedit, cum itaque laborum
@@ -171,7 +194,7 @@
                 <hr>
             </div>
 
-            <div id="perdidos" style="margin: 10px;">
+            <div style="margin: 10px;">
 
                 <h3>Caneta Azul</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla debitis impedit, cum itaque laborum
@@ -184,7 +207,7 @@
                 <hr>
             </div>
 
-            <div id="perdidos" style="margin: 10px;">
+            <div style="margin: 10px;">
 
                 <h3>Caneta Azul</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla debitis impedit, cum itaque laborum
