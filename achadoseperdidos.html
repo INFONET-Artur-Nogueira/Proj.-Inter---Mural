@@ -61,13 +61,12 @@
         }
     </script>
 
-    <div id="calendar">
-        <div class="tab">
-            <button class="tablinkpage active" onclick="openCity(event, 'achados')">Itens achados</button>
-            <button class="tablinkpage" onclick="openCity(event, 'perdidos')">Itens perdidos</button>
-        </div>
+    <div id="botao-achados">
+        <button type="button" class="btn btn-outline-primary" onclick="openCity(event, 'achados')">Itens
+            achados</button>
+        <button type="button" class="btn btn-outline-primary" onclick="openCity(event, 'perdidos')">Itens
+            perdidos</button>
     </div>
-
 
     <div id="principal">
         <div id="achados" class="div-achados tabreplacepage bootstrap snippets bootdeys">

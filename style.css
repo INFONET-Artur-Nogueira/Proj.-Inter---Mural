@@ -487,6 +487,7 @@ a:focus {
 
 
 /* Achados e perdidos */
+
 #principal {
 	flex-wrap: wrap;
 	max-height: auto;
@@ -498,19 +499,27 @@ a:focus {
 	padding: 25px;
 }
 
-.botao {
-	border: 0 none;
-	border-radius: 5px;
-	box-shadow: 0 0 0 0;
-	outline: 0;
-	background: #8C52FF;
-	color: white;
-	padding: 6px 12px;
+#botao-achados {
+	margin-left: 40%;
+	margin-top: 20px;
+	color: #fff !important;
 }
 
-#achados .botao {
-	margin-bottom: 10px;
+#botao-achados .btn-outline-primary {
+
+	color: #fff !important;
+	border: none !important;
+	box-shadow: none !important
 }
+
+#botao-achados .btn.btn-outline-primary {
+	background-color: #4b0082;
+}
+
+#botao-achados .btn.btn-outline-primary:hover {
+	background-color: #b509ff;
+}
+
 
 #principal>.perdidos {
 	width: 524px;
@@ -588,6 +597,16 @@ h4 {
 	display: none;
 	padding: 10px 10px;
 	margin: auto;
+}
+
+.botao {
+	border: 0 none;
+	border-radius: 5px;
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	background: #8C52FF;
+	color: white;
+	padding: 6px 12px;
 }
 
 #calendar table {
