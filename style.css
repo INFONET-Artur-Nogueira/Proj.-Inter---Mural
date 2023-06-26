@@ -500,20 +500,21 @@ a:focus {
 }
 
 #botao-achados {
-	margin-left: 40%;
 	margin-top: 20px;
 	color: #fff !important;
+	text-align: center;;
 }
 
 #botao-achados .btn-outline-primary {
 
 	color: #fff !important;
 	border: none !important;
-	box-shadow: none !important
+	box-shadow: none !important;
 }
 
 #botao-achados .btn.btn-outline-primary {
 	background-color: #4b0082;
+	
 }
 
 #botao-achados .btn.btn-outline-primary:hover {
@@ -522,12 +523,12 @@ a:focus {
 
 
 #principal>.perdidos {
-	width: 524px;
 	max-height: 0 0 auto 0;
 	left: 1020px;
 	top: 67px;
 	padding-top: 50px;
 	display: none;
+	text-align:center;
 }
 
 
@@ -565,7 +566,6 @@ h4 {
 .form {
 	margin: 5px;
 }
-
 /* Calendario */
 
 #calendar .tab {
