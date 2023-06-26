@@ -552,6 +552,7 @@ h4 {
 	align-items: center;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 0.7em;
 }
 
 #achados {
@@ -731,6 +732,17 @@ table td {
 	}
 }
 
+/* Cursos */
+
+h5,
+h3 {
+	text-align: center !important;
+	margin-top: 0.8em !important;
+}
+
+.cursos-cards.botao.center {
+	margin-top: 1em;
+}
 
 /*vagas de estagio*/
 
