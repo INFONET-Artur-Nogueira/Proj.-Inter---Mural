@@ -764,6 +764,10 @@ h3 {
 	padding: 45px 0px;
 	font-weight: bold;
 }
+@media (max-width: 576px) {
+	#contato-subheader {
+		height: 135px;
+	}
 
 #conteudo {
 	margin: 30px auto;
