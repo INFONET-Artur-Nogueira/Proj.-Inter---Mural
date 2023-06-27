@@ -759,7 +759,7 @@ h3 {
 /* *********Contato*********/
 
 #contato-subheader {
-	height: 110px;
+	height: auto;
 	width: auto;
 	padding: 45px 0px;
 	font-weight: bold;
