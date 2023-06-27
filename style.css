@@ -800,3 +800,14 @@ textarea {
 	display: flex;
 	gap: 100px;
 }
+
+
+/* Guia de carreira */
+#guia-de-carreira .modal-content {
+	padding: 20px;
+}
+
+#guia-de-carreira .modal-content .modal-header {
+	padding-right: 0;
+	padding-left: 0;
+}
