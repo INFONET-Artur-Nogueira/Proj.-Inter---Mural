@@ -186,6 +186,7 @@ header nav .dropdown-menu li a:hover {
 
 #noticias .row {
 	width: 100%;
+	margin-left: 0;
 }
 
 #destaque1.card {
