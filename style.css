@@ -1,4 +1,4 @@
-/********* Header *********/
+c/********* Header *********/
 
 body,
 header,
@@ -750,7 +750,7 @@ h3 {
 }
 
 #conteudo {
-	margin: 5px;
+	margin: auto;
 	max-width: 600px;
 	border: 1px solid #dfdfdf;
 	height: auto;
