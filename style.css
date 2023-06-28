@@ -1,4 +1,4 @@
-/* Header */
+/********* Header *********/
 
 body,
 header,
@@ -182,11 +182,10 @@ header nav .dropdown-menu li a:hover {
 	font-size: 50px;
 }
 
-/*  Noticias */
+/*********  Noticias *********/
 
 #noticias .row {
 	width: 100%;
-	margin-left: 0;
 }
 
 #destaque1.card {
@@ -228,8 +227,6 @@ header nav .dropdown-menu li a:hover {
 	padding: 50px 20px;
 	margin: 0 auto;
 }
-
-
 
 .content-img {
 	max-height: 272px;
@@ -283,7 +280,6 @@ header nav .dropdown-menu li a:hover {
 	flex-wrap: wrap;
 	max-width: 350px;
 	min-width: 300px;
-
 }
 
 #noticias .nav-link {
@@ -295,7 +291,12 @@ header nav .dropdown-menu li a:hover {
 	color: white;
 }
 
-/* Rodapé */
+.title {
+	margin-bottom: 15px !important;
+}
+
+/********* Rodapé *********/
+
 footer {
 	background-color: #8C52FF;
 	font-family: "Inter", sans-serif;
@@ -307,10 +308,7 @@ footer .container {
 	justify-content: space-around;
 	gap: 30px;
 	flex-wrap: wrap;
-
-
 }
-
 
 footer .container nav h2 {
 	font-size: 20px;
@@ -318,7 +316,6 @@ footer .container nav h2 {
 	color: #fff;
 	position: relative;
 	margin-bottom: 2px;
-
 }
 
 footer .container nav h2::after {
@@ -329,7 +326,6 @@ footer .container nav h2::after {
 	position: absolute;
 	bottom: -2px;
 	left: 0;
-
 }
 
 footer .container nav {
@@ -341,7 +337,6 @@ footer .container nav a {
 	font-weight: 500;
 	color: #fff;
 	padding: 0;
-
 }
 
 footer .container nav a:hover {
@@ -363,7 +358,7 @@ footer .container nav a:hover {
 	}
 }
 
-/*  */
+/********* Cards e index *********/
 
 
 .home-container .row {
@@ -396,6 +391,15 @@ footer .container nav a:hover {
 	z-index: 1;
 }
 
+.card-footer {
+	background-color: #b8d8d8 !important;
+	border-top: 0px !important;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
 
 .card[data-background="image"] .title,
 .card[data-background="image"] .stats,
@@ -417,8 +421,7 @@ footer .container nav a:hover {
 }
 
 .card.card-just-text .content {
-	padding: 50px 65px;
-	text-align: left;
+	padding: 25px 50px;
 }
 
 .card .content {
@@ -465,6 +468,7 @@ h6,
 }
 
 .card .description {
+	text-align: center;
 	font-size: 16px;
 	color: #66615b;
 }
@@ -486,8 +490,7 @@ a:focus {
 	color: #506568;
 }
 
-
-/* Achados e perdidos */
+/********* Achados e perdidos *********/
 
 #principal {
 	flex-wrap: wrap;
@@ -500,26 +503,28 @@ a:focus {
 	padding: 25px;
 }
 
-#botao-achados {
-	margin-top: 20px;
-	color: #fff !important;
-	text-align: center;
+#botao-achados .tab {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
 }
 
-#botao-achados .btn-outline-primary {
-
-	color: #fff !important;
-	border: none !important;
-	box-shadow: none !important;
+#botao-achados .tab button {
+	background-color: #f1f1f1;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	transition: background-color 0.3s;
+	width: 148px;
 }
 
-#botao-achados .btn.btn-outline-primary {
-	background-color: #4b0082;
-	
+#botao-achados .tab button:hover {
+	background-color: #ddd;
 }
 
-#botao-achados .btn.btn-outline-primary:hover {
-	background-color: #b509ff;
+#botao-achados .tab button.active {
+	background-color: #ccc;
 }
 
 
@@ -529,9 +534,8 @@ a:focus {
 	top: 67px;
 	padding-top: 50px;
 	display: none;
-	text-align:center;
+	text-align: center;
 }
-
 
 #achados .col {
 	border: 1px solid rgb(173, 173, 173);
@@ -548,14 +552,6 @@ h4 {
 	text-align: center;
 }
 
-.center {
-	display: block;
-	align-items: center;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 0.7em;
-}
-
 #achados {
 	margin: 0 auto;
 	max-width: 1000px;
@@ -568,13 +564,13 @@ h4 {
 .form {
 	margin: 5px;
 }
-/* Calendario */
+
+/********* Calendario *********/
 
 #calendar .tab {
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
-
 }
 
 #calendar .tab button {
@@ -599,16 +595,6 @@ h4 {
 	display: none;
 	padding: 10px 10px;
 	margin: auto;
-}
-
-.botao {
-	border: 0 none;
-	border-radius: 5px;
-	box-shadow: 0 0 0 0;
-	outline: 0;
-	background: #8C52FF;
-	color: white;
-	padding: 6px 12px;
 }
 
 #calendar table {
@@ -733,7 +719,7 @@ table td {
 	}
 }
 
-/* Cursos */
+/********* Cursos *********/
 
 h5,
 h3 {
@@ -745,9 +731,7 @@ h3 {
 	margin-top: 1em;
 }
 
-/*vagas de estagio*/
-
-#vagas #principal {}
+/********* Vagas de estagio *********/
 
 #vagas .botao {
 	background: rgb(174, 11, 255);
@@ -757,7 +741,7 @@ h3 {
 	max-width: 1585px !important;
 }
 
-/* *********Contato*********/
+/********** Contato *********/
 
 #contato-subheader {
 	height: 110px;
@@ -766,6 +750,7 @@ h3 {
 }
 
 #conteudo {
+	margin: 5px;
 	max-width: 600px;
 	border: 1px solid #dfdfdf;
 	height: auto;
@@ -784,12 +769,11 @@ h3 {
 	padding: 30px 0px 0px;
 }
 
-#contato a{
+#contato a {
 	padding: 0px !important;
 }
 
-
-/* Guia de carreira */
+/********* Guia de carreira *********/
 #guia-de-carreira .modal-content {
 	padding: 20px;
 }
@@ -797,4 +781,23 @@ h3 {
 #guia-de-carreira .modal-content .modal-header {
 	padding-right: 0;
 	padding-left: 0;
+}
+
+/********* Geral *********/
+
+.botao {
+	border: 0 none;
+	border-radius: 5px;
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	background: #8C52FF;
+	color: white;
+	padding: 6px 12px;
+}
+
+.center {
+	display: block;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
 }
