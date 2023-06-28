@@ -2,38 +2,22 @@
 <html>
 
 <head>
-
     <title> Achados e perdidos </title>
-
     <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"> </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"> </script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"> </script>
-
     <script src="scripts.js"> </script>
-
 </head>
 
 <body id="achados-perdido">
@@ -56,11 +40,9 @@
     </script>
 
     <div id="botao-achados">
-        <div id="navegacao">
-            <button type="button" class="btn btn-outline-primary" onclick="openCity(event, 'achados')">Itens
-                achados</button>
-            <button type="button" class="btn btn-outline-primary" onclick="openCity(event, 'perdidos')">Itens
-                perdidos</button>
+        <div class="tab">
+            <button type="button" class="tablinkpage active" onclick="openCity(event, 'achados')">Itens achados</button>
+            <button type="button" class="tablinkpage" onclick="openCity(event, 'perdidos')">Itens perdidos</button>
         </div>
     </div>
 
@@ -73,11 +55,9 @@
                             <div class="content" style="padding: 0px;">
                                 <img class="center" src="img/bolsa.png" width="215px" height="235">
                                 <div style="margin: 15px;">
-                                    <h4>Bolsa</h4>
-                                    <p>Bolsa azul - encontrada na sala de ADM</p>
-                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">
-                                        É meu!
-                                    </button>
+                                    <h3 class="title">Bolsa</h3>
+                                    <p class="description">Bolsa verde - encontrada na sala de ADM</p>
+                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">É meu!</button>
                                 </div>
                             </div>
                         </div>
@@ -89,11 +69,9 @@
                             <div class="content" style="padding: 0px;">
                                 <img class="center" src="img/caderno.png" width="215px" height="235">
                                 <div style="margin: 15px;">
-                                    <h4>Caderno</h4>
-                                    <p>Caderno capa dura - encontrado no lab de informática</p>
-                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">
-                                        É meu!
-                                    </button>
+                                    <h3 class="title">Caderno</h3>
+                                    <p class="description">Caderno preto - encontrado no laboratório de informática</p>
+                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">É meu!</button>
                                 </div>
                             </div>
                         </div>
@@ -105,11 +83,9 @@
                             <div class="content" style="padding: 0px;">
                                 <img class="center" src="img/estojo.png" width="215px" height="235">
                                 <div style="margin: 15px;">
-                                    <h4>Estojo</h4>
-                                    <p>Bolsa preta - encontrada no refeitório</p>
-                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">
-                                        É meu!
-                                    </button>
+                                    <h3 class="title">Estojo</h3>
+                                    <p class="description">Estojo preto - encontrada no refeitório perto do bebedouro</p>
+                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">É meu!</button>
                                 </div>
                             </div>
                         </div>
@@ -121,11 +97,9 @@
                             <div class="content" style="padding: 0px;">
                                 <img class="center" src="img/lapis.png" width="215px" height="235">
                                 <div style="margin: 15px;">
-                                    <h4>Lapiseira</h4>
-                                    <p>Lapiseira Faber-Castell - encontrada no corredor da direção </p>
-                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">
-                                        É meu!
-                                    </button>
+                                    <h3 class="title">Lapiseira</h3>
+                                    <p class="description">Lapiseira Faber-Castell - encontrada na Secretária</p>
+                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">É meu!</button>
                                 </div>
                             </div>
                         </div>
@@ -137,11 +111,9 @@
                             <div class="content" style="padding: 0px;">
                                 <img class="center" src="img/fones.png" width="215px" height="235">
                                 <div style="margin: 15px;">
-                                    <h4>Fone de ouvido</h4>
-                                    <p>Fone bluetooth - encontrado na sala de ADM</p>
-                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">
-                                        É meu!
-                                    </button>
+                                    <h3 class="title">Fone de ouvido</h3>
+                                    <p class="description">Fone bluetooth - encontrado na sala de ADM</p>
+                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">É meu!</button>
                                 </div>
                             </div>
                         </div>
@@ -153,11 +125,9 @@
                             <div class="content" style="padding: 0px;">
                                 <img class="center" src="img/carregador.png" width="215px" height="235">
                                 <div style="margin: 15px;">
-                                    <h4>Carregador</h4>
-                                    <p>Carregador entrada de Iphone - encontrada na biblioteca</p>
-                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">
-                                        É meu!
-                                    </button>
+                                    <h3 class="title">Carregador</h3>
+                                    <p class="description">Carregador de Iphone - encontrado perto da biblioteca</p>
+                                    <button type="button" class="botao center" data-toggle="modal" data-target="#exampleModal">É meu!</button>
                                 </div>
                             </div>
                         </div>
@@ -171,35 +141,10 @@
                     <div class="card-big-shadow">
                         <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
                             <div class="content" style="padding: 0px; height: 300px;"">
-                                <div style="margin: 15px;">
-                                    <h3>Caneta Azul</h3>
-                                    <p> Perdi perto do laboratório de informática, caneta azul bic transparente </p>
-                                    <button class="botao center" type="button" data-toggle="modal" data-target="#achado">Eu achei!!</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 content-card">
-                    <div class="card-big-shadow">
-                        <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
-                            <div class="content" style="padding: 0px; height: 300px;"">
-                                <div style="margin: 15px;">
-                                    <h3>Chaves</h3>
-                                    <p>Perdi perto do refeitório, são 3 chaves com 1 chaveiro</p>
-                                    <button class="botao center" type="button" data-toggle="modal" data-target="#achado">Eu achei!!</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 content-card">
-                    <div class="card-big-shadow">
-                        <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
-                            <div class="content" style="padding: 0px; height: 300px;">
-                                <div style="margin: 15px;">
-                                    <h3>Notebook</h3>
-                                    <p>Esqueci na sala de ADM, notebook possitivo com windows XP</p>
+                                <div style=" margin: 15px;">
+                                <h3 class="title">Caneta Azul</h3>
+                                <p class="description">Perdi perto do laboratório de informática, caneta azul bic transparente </p>
+                                <div class="card-footer">
                                     <button class="botao center" type="button" data-toggle="modal" data-target="#achado">Eu achei!!</button>
                                 </div>
                             </div>
@@ -207,58 +152,87 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Requisição de objeto perdido</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body center">
-                        <form>
-                            <input class="form" type="text" name="Nome" placeholder="Seu Nome"><br>
-                            <input class="form" type="Objeto" name="objeto" placeholder="Objeto"><br>
-                            <input class="form" type="email" name="email" placeholder="E-mail"><br>
-                            <textarea class="form" placeholder="Mande um email"></textarea>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <button type="button" class="botao">Enviar</button>
+            <div class="col-md-4 col-sm-6 content-card">
+                <div class="card-big-shadow">
+                    <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                        <div class="content" style="padding: 0px; height: 300px;"">
+                                <div style=" margin: 15px;">
+                            <h3 class="title">Chaves</h3>
+                            <p class="description">Perdi perto do refeitório, são 3 chaves com 1 chaveiro</p>
+                            <div class="card-footer">
+                                <button class="botao center" type="button" data-toggle="modal" data-target="#achado">Eu achei!!</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+                <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                    <div class="content" style="padding: 0px; height: 300px;">
+                        <div style="margin: 15px;">
+                            <h3 class="title">Notebook</h3>
+                            <p class="description">Esqueci na sala de ADM, notebook possitivo com windows XP</p>
+                            <div class="card-footer">
+                                <button class="botao center" type="button" data-toggle="modal" data-target="#achado">Eu achei!!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Requisição de objeto perdido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body center">
+                    <form>
+                        <input class="form" type="text" name="Nome" placeholder="Seu Nome"><br>
+                        <input class="form" type="Objeto" name="objeto" placeholder="Objeto"><br>
+                        <input class="form" type="email" name="email" placeholder="E-mail"><br>
+                        <textarea class="form" placeholder="Mande um email"></textarea>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="botao">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div class="modal fade" id="achado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Requisição de objeto perdido</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body center">
-                        <form>
-                            <input class="form" type="text" name="Nome" placeholder="Seu Nome"><br>
-                            <input class="form" type="text" name="objeto" placeholder="Objeto">
-                            <input class="form" type="email" name="email" placeholder="E-mail"><br>
-                            <textarea class="form" placeholder="Mande um email"></textarea>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <button type="button" class="botao">Enviar</button>
-                    </div>
+    <div class="modal fade" id="achado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Requisição de objeto perdido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body center">
+                    <form>
+                        <input class="form" type="text" name="Nome" placeholder="Seu Nome"><br>
+                        <input class="form" type="text" name="objeto" placeholder="Objeto">
+                        <input class="form" type="email" name="email" placeholder="E-mail"><br>
+                        <textarea class="form" placeholder="Mande um email"></textarea>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="botao">Enviar</button>
                 </div>
             </div>
         </div>
-        <footer></footer>
-
+    </div>
+    <footer></footer>
 </body>
-
 </html>
