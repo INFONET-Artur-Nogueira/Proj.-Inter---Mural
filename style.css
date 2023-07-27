@@ -188,6 +188,10 @@ header nav .dropdown-menu li a:hover {
 	width: 100%;
 }
 
+#noticias .container > .row.g-4 {
+	margin: 0;
+}
+
 #destaque1.card {
 	background-position: center;
 	background-size: cover;
