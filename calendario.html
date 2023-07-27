@@ -89,9 +89,8 @@
 		const date = new Date();
 		let day = date.getDate();
 
-
 		function autoday() {
-			if (day != 3 && day != 7 && day != 8 && day != 9 && day != 14 && day != 21 && day != 26 && day != 28 && day != 30) {
+			if (day != 2 && day != 9 && day != 12 && day != 15 && day != 16 && day != 21 && day != 23 && day != 24 && day != 28 && day != 30) {
 				document.getElementById("dia").style.display = "block";
 				document.getElementById("fdia").innerHTML = day;
 				document.getElementById("finfo").innerHTML = "Dia de aula";
@@ -100,7 +99,7 @@
 			}
 
 
-			if (day == 4 || day == 10 || day == 11 || day == 17 || day == 18 || day == 24 || day == 25 || day == 31) {
+			if (day == 5 || day == 6 || day == 13 || day == 19 || day == 20 || day == 26 || day == 27) {
 				document.getElementById("finfo").innerHTML = "Dia de folga";
 			}
 		}
@@ -115,7 +114,7 @@
 		<div id="calendario" class="tabreplacepage" style="display: block;">
 			<table style="table-layout: fixed;">
 				<tr>
-					<th colspan="7">Junho</th>
+					<th colspan="7">Agosto</th>
 				</tr>
 				<tr>
 					<th class="semabv">Segunda</th>
@@ -135,49 +134,49 @@
 					<th class="comabv">Dom</th>
 				</tr>
 				<tr>
-					<td>29</td>
-					<td>30</td>
-					<td>31</td>
+					<td></td>
 					<td>1</td>
-					<td>2</td>
-					<td class="tablinkquadro avisos" onclick="quadroinfo(event, '3')">3</td>
-					<td class="domingo">4</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '2')">2</td>
+					<td>3</td>
+					<td>4</td>
+					<td class="semaula">5</td>
+					<td class="domingo">6</td>
 				</tr>
 				<tr>
-					<td>5</td>
-					<td>6</td>
-					<td class="tablinkquadro or" onclick="quadroinfo(event, '7')">7</td>
-					<td class="tablinkquadro semaula" onclick="quadroinfo(event, '8')">8</td>
-					<td class="tablinkquadro semaula" onclick="quadroinfo(event, '9')">9</td>
-					<td td class="semaula">10</td>
-					<td class="domingo">11</td>
+					<td>7</td>
+					<td>8</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '9')">9</td>
+					<td>10</td>
+					<td>11</td>
+					<td class="tablinkquadro avisos" onclick="quadroinfo(event, '12')">12</td>
+					<td class="domingo">13</td>
 				</tr>
 				<tr>
-					<td>12</td>
-					<td>13</td>
-					<td class="tablinkquadro or" onclick="quadroinfo(event, '14')">14</td>
-					<td>15</td>
-					<td>16</td>
-					<td class="semaula">17</td>
-					<td class="domingo">18</td>
+					<td>14</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '15')">15</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '16')">16</td>
+					<td>17</td>
+					<td>18</td>
+					<td class="semaula">19</td>
+					<td class="domingo">20</td>
 				</tr>
 				<tr>
-					<td>19</td>
-					<td>20</td>
-					<td class="tablink or" onclick="quadroinfo(event, '21')">21</td>
+					<td  class="tablinkquadro avisos" onclick="quadroinfo(event, '21')">21</td>
 					<td>22</td>
-					<td>23</td>
-					<td td class="semaula">24</td>
-					<td class="domingo">25</td>
+					<td class="tablink or" onclick="quadroinfo(event, '23')">23</td>
+					<td class="tablinkquadro avisos" onclick="quadroinfo(event, '24')">24</td>
+					<td>25</td>
+					<td class="semaula">26</td>
+					<td class="domingo">27</td>
 				</tr>
 				<tr>
-					<td class="tablinkquadro avisos" onclick="quadroinfo(event, '26')">26</td>
-					<td>27</td>
-					<td class="tablink or" onclick="quadroinfo(event, '28')">28</td>
+					<td class="tablinkquadro or" onclick="quadroinfo(event, '28')">28</td>
 					<td>29</td>
-					<td class="tablink avisos" onclick="quadroinfo(event, '30')">30</td>
-					<td td class="semaula">31</td>
-					<td class="domingo">1</td>
+					<td class="tablink or" onclick="quadroinfo(event, '30')">30</td>
+					<td>31</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</table>
 
@@ -202,45 +201,45 @@
 
 				<div class="quadro center">
 
-
-
-					<div id="3" class="tabreplacequadro" style="display:none;">
-						<h1>Dia 3</h1>
-						<p>Sábado Letivo referente ao dia 20/02 (segunda-feira)</p>
-					</div>
-					<div id="7" class="tabreplacequadro" style="display:none;">
-						<h1>Dia 7</h1>
-						<p>Reunião da Direção</p>
-					</div>
-					<div id="8" class="tabreplacequadro" style="display:none;">
-						<h1>Dia 8</h1>
-						<p>Feriado Nacional (Corpus Christi)</p>
+					<div id="2" class="tabreplacequadro" style="display:none;">
+						<h1>Dia 2</h1>
+						<p>Reunião da Direção com Equipe Pedagógico-Administrativo</p>
 					</div>
 					<div id="9" class="tabreplacequadro" style="display:none;">
 						<h1>Dia 9</h1>
-						<p>Suspensão de Atividades
-						<p>
+						<p>Reunião da Direção com Equipe Pedagógico-Administrativo</p>
 					</div>
-					<div id="14" class="tabreplacequadro" style="display:none;">
-						<h1>Dia 14</h1>
-						<p>Reunião de Curso
-						<p>
+					<div id="12" class="tabreplacequadro" style="display:none;">
+						<h1>Dia 12</h1>
+						<p>Sábado Letivo referente ao dia 08/09 (sexta-feira)</p>
+					</div>
+					<div id="15" class="tabreplacequadro" style="display:none;">
+						<h1>Dia 15</h1>
+						<p>Assembleia Geral Ordinária da Associação de Pais e Mestres<p>
+					</div>
+					<div id="16" class="tabreplacequadro" style="display:none;">
+						<h1>Dia 16</h1>
+						<p>Reunião da Direção com Equipe Pedagógico-Administrativo<p>
 					</div>
 					<div id="21" class="tabreplacequadro" style="display:none;">
 						<h1>Dia 21</h1>
-						<p>Reunião da Direção</p>
+						<p>Fim Entrega do PTD</p>
 					</div>
-					<div id="26" class="tabreplacequadro" style="display:none;">
-						<h1>Dia 26</h1>
-						<p>Reunião do Conselho</p>
+					<div id="23" class="tabreplacequadro" style="display:none;">
+						<h1>Dia 23</h1>
+						<p>Reunião da Direção com Servidor-Administrativo</p>
+					</div>
+					<div id="24" class="tabreplacequadro" style="display:none;">
+						<h1>Dia 24</h1>
+						<p>Fim Solicitação de Aproveitamento</p>
 					</div>
 					<div id="28" class="tabreplacequadro" style="display:none;">
 						<h1>Dia 28</h1>
-						<p>Reunião da Direção</p>
+						<p>Reunião do Conselho de Escola</p>
 					</div>
 					<div id="30" class="tabreplacequadro" style="display:none;">
 						<h1>Dia 30</h1>
-						<p>Fim das Aulas 1º Semestre</p>
+						<p>Reunião da Direção com Equipe Pedagógico-Administrativo</p>
 					</div>
 
 					<div id="dia" class="tabreplacequadro" style="display:none;">
