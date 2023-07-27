@@ -621,7 +621,7 @@ table td {
 	color: white;
 }
 
-#calendar table tr:nth-child(even) {
+#calendar table tr:nth-child(odd) {
 	background-color: #e8e7e7;
 }
 
