@@ -787,6 +787,10 @@ h3 {
 	padding-left: 0;
 }
 
+#guia-de-carreira .modal-footer {
+	border: none;
+}
+
 /********* Geral *********/
 
 .botao {
