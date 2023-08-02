@@ -247,7 +247,7 @@ header nav .dropdown-menu li a:hover {
 	color: black;
 	border-radius: 20px;
 	padding: 20px;
-	height: 230px;
+	min-height: 230px;
 	min-width: 168px;
 }
 
